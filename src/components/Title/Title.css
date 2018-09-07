@@ -1,0 +1,13 @@
+#secondColor {
+    font-weight: 400;
+    color: #7C9C7C;
+}
+
+.container-fluid {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-title {
+    font-size: 2.5rem;
+}

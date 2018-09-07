@@ -1,0 +1,14 @@
+.progress-title {
+    background-color: rgb(148, 185, 148);
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+.w3-color {
+    background-color:#7C9C7C;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+    color: white;
+}

@@ -1,0 +1,62 @@
+h3, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.flip-container {
+    perspective: 1000px;
+    text-align: center;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back, .screenshot{
+    width: 350px;
+    height: 300px;
+    
+}
+
+.flipper {
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    /* transform: rotateY(0deg); */
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color: #FFF;
+    color: black;
+}
+
+#button2 {
+    border-color: #7C9C7C;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    bottom: 15%;
+    right:30%;
+}
+
+#button2:hover{
+    background-color: #7C9C7C;
+    border-color: #7C9C7C;
+    color: white;
+}
+
+.project-info {
+    margin-right: 2%;
+    margin-left: 5%;
+}
