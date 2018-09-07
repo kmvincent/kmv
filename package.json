@@ -2,6 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.1.0",
+    "node": "10.6.0"
+  },
   "homepage": "http://kmvincent.github.io/kmv",
   "dependencies": {
     "bulma": "^0.7.1",
