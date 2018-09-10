@@ -67,8 +67,8 @@ const Home = () => (
 </Container>
 
 <Container fluid className="contain">
-    <div className="container-fluid">
-        <a className="container-title" href="" download>my <span id="secondColor">resume</span></a>
+    <div className="container-fluid" id="contact">
+        <a className="container-title" href="Resume.jpg" download>my <span id="secondColor">resume</span></a>
     </div>
 
 </Container>
